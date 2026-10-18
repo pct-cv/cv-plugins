@@ -1,0 +1,14 @@
+{
+  "name": "cv-plugins",
+  "owner": {
+    "name": "Caruso Ventures"
+  },
+  "description": "CV team plugins for Claude Code: the daily Asana update pass (pilot).",
+  "plugins": [
+    {
+      "name": "asana-pass",
+      "source": "./plugins/asana-pass",
+      "description": "Daily Asana update pass for the CV team (pilot)."
+    }
+  ]
+}

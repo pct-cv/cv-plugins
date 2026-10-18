@@ -1,0 +1,6 @@
+{
+  "name": "asana-pass",
+  "version": "0.1.0",
+  "description": "Daily Asana update pass for the CV team: scans Asana, Gmail, Slack, the Den and Granola since your last pass, proposes Asana changes, reply drafts, email filing and project-site updates as a numbered queue, and works it one step at a time after you say go.",
+  "author": { "name": "Paul Tarell, Caruso Ventures" }
+}
