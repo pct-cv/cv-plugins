@@ -16,11 +16,11 @@ are drafts.
 
 ## Install and set up
 
-1. Install the plugin in Claude Code (you need read access to
-   pct-cv/cv-plugins):
+1. Register the marketplace in Claude Code, then install from it:
 
    ```
-   /plugin install asana-pass --marketplace pct-cv/cv-plugins
+   /plugin marketplace add pct-cv/cv-plugins
+   /plugin install asana-pass@cv-plugins
    ```
 2. In a session on your repo, run `/asana-pass setup`. Claude asks for your
    Asana user, projects, email labels, Granola folders and your own working
