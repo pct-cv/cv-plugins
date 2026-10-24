@@ -13,6 +13,7 @@ are drafts.
 | A private repo of your own (e.g. `<you>-workspace`) | Holds your config, rules and pass state | Create it on GitHub, start Claude Code sessions on it |
 | Asana access for scripted calls | The pass writes to Asana through the REST API | Cloud sessions: add an app.asana.com network secret to your environment. Local: a token in a gitignored `.secrets/` file |
 | Connectors in claude.ai | Reading your sources | Asana, Gmail, Slack, Granola (optional), CV-MCP for the Den (optional) |
+| Gmail labels for filing | The pass files each email under a label | None yet is fine: setup offers a starting set and creates the ones you pick |
 
 ## Install and set up
 

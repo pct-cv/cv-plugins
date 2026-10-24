@@ -22,7 +22,13 @@ has seen the files.
    - the state branch (default `main`);
    - their Asana projects and sections (list the projects they're a member
      of; they pick);
-   - Gmail labels and routing (list labels; they say which topics go where);
+   - Gmail labels and routing: list their labels. A new user often has
+     none, so offer the team's filing labels as a starting set (CV
+     Operations, Pearl West with Leasing, Property Management, Chill House,
+     Sundance, Underground and Amante space under it, Tulagi, Follow up),
+     let them add, drop or rename, and say which topics go where. Create the
+     labels they choose with Gmail `create_label` (nested labels use
+     `Parent/Child`) after their "go", then record each label's id;
    - Granola folders to process and folders to exclude;
    - people notes they want applied (e.g. who is outside CV, who is never a
      sole assignee). Offer the team people list from Asana's workspace users.
