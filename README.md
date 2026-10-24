@@ -10,8 +10,11 @@ and state live in their own private repo.
 
 ## Install
 
+Register the marketplace first, then install from it:
+
 ```
-/plugin install asana-pass --marketplace pct-cv/cv-plugins
+/plugin marketplace add pct-cv/cv-plugins
+/plugin install asana-pass@cv-plugins
 ```
 
 Then follow the plugin's README.
